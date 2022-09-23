@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         theme={{
           /** Put your mantine theme override here */
           colorScheme: 'dark',
-          fontFamily: 'Verdana sans-self',
+          fontFamily: 'Verdana, sans-serif',
         }}
       >
         <Component {...pageProps} />
