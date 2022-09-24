@@ -7,7 +7,7 @@ export const useQueryTasks = () => {
   const router = useRouter()
   const getTasks = async () => {
     const { data } = await axios.get<Task[]>(
-      `${process.env.NEXT_PUBLIC_API_URL}/todo`
+      `${process.env.NEXT_PUBLIC_API_URL}/todo?page=1&limit=30`
     )
     return data
   }
