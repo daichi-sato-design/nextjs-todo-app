@@ -15,7 +15,7 @@ import {
   Alert,
 } from '@mantine/core'
 import { useForm, yupResolver } from '@mantine/form'
-import { Layout } from '../types/components/Layout'
+import { Layout } from '../components/Layout'
 import { AuthForm } from '../types'
 
 const schema = Yup.object().shape({

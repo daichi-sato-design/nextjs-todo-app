@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import { useRouter } from 'next/router'
 import axios from 'axios'
 import { LogoutIcon } from '@heroicons/react/solid'
-import { Layout } from '../types/components/Layout'
+import { Layout } from '../components/Layout'
 
 const Dashboard: NextPage = () => {
   const router = useRouter()
